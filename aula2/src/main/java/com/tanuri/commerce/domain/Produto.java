@@ -1,3 +1,5 @@
+package com.tanuri.commerce.domain; // Certifique-se de que o package está correto
+
 public class Produto {
 
     private String nome;
@@ -38,7 +40,7 @@ public class Produto {
     }
 
     public void setPreco(double preco) {
-        validarPreco(preco); // Valida antes de alterar
+        validarPreco(preco);
         this.preco = preco;
     }
 
@@ -50,14 +52,26 @@ public class Produto {
     // --- Métodos de Validação de Invariantes ---
 
     private void validarNome(String nome) {
+        if (nome == null || nome.trim().isEmpty()) {
+            throw new IllegalArgumentException("O nome do produto não pode ser nulo, vazio ou em branco.");
+        }
     }
 
     private void validarDescricao(String descricao) {
+        if (descricao == null || descricao.trim().isEmpty()) {
+            throw new IllegalArgumentException("A descrição do produto não pode ser nula, vazia ou em branco.");
+        }
     }
 
     private void validarPreco(double preco) {
+        if (preco <= 0) {
+            throw new IllegalArgumentException("O preço do produto deve ser positivo e maior que zero.");
+        }
     }
 
     private void validarEstoque(int estoque) {
+        if (estoque < 0) {
+            throw new IllegalArgumentException("O estoque do produto não pode ser negativo.");
+        }
     }
 }
