@@ -6,9 +6,9 @@ Este repositório contém as atividades práticas da disciplina **Testes Automat
 Aplicar os princípios do **Test-Driven Development** (TDD) — *Red, Green e Refactor* — para criar soluções de software mais confiáveis e sustentáveis.
 
 ## 📂 Estrutura do Repositório
-- ula1/ → Fundamentos e primeiros testes automatizados  
-- ula2/ → Sistema de caixa com testes unitários  
-- ula3/ → Melhorias e refatoração  
+-  Aula1/ → Fundamentos e primeiros testes automatizados  
+-  Aula2/ → Sistema de caixa com testes unitários  
+-  Aula3/ → Melhorias e refatoração  
 - README.md → Descrição geral do projeto
 
 ## 🚀 Tecnologias Utilizadas
@@ -25,6 +25,7 @@ Aplicar os princípios do **Test-Driven Development** (TDD) — *Red, Green e Re
 
 ---
 
-✍️ **Autor:** Fabio Isidoro Mendes  
+✍️ **Autor:** Fabio Mendes
+📅 *Período: 2025.11  
 📅 *Disciplina: Testes Automatizados (TDD) — Técnicas de Programação*  
 🎓 *ADA Tech / Magalu Cloud*
