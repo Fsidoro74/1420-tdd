@@ -1,104 +1,30 @@
-<<<<<<< HEAD
-cd C:\\Users\\DELL\\1420-tdd
-
-
-
-\# Apaga o README antigo e cria o novo
-
-echo "# 🧪 Projeto TDD – Test-Driven Development
-
-
-
-Este repositório contém as atividades práticas da disciplina \*\*Testes Automatizados (TDD)\*\*, realizadas durante o curso de \*\*Técnicas de Programação\*\*.  
-
-Cada aula apresenta desafios e exemplos práticos aplicando os conceitos de \*\*Red, Green, Refactor\*\*.
-
-
-
----
-
-
-
-\## 📂 Estrutura do Repositório
-
-
-
-| Pasta | Descrição |
-
-|-------|------------|
-
-| `aula2/` | Introdução ao TDD e primeiros testes unitários. |
-
-| `aula3/` | Desafio: Extração de Cenários para Sistema de Caixa (Testes de Estado e Comportamento). |
-
-| `aula4/` | Aplicação prática com mocks e integração entre serviços. |
-
-| `app-caixa-supermercado/` | Código-fonte principal do sistema de caixa utilizado nos testes. |
-
-
-
----
-
-
-
-\## ⚙️ Tecnologias Utilizadas
-
-\- \*\*Java 17+\*\*
-
-\- \*\*JUnit 5\*\*
-
-\- \*\*Mockito\*\*
-
-\- \*\*Maven\*\*
-
-\- \*\*Git/GitHub\*\*
-
-
-
----
-
-
-
-\## 🧭 Como Executar os Testes
-
-
-
-\\`\\`\\`bash
-
-git clone https://github.com/Fsidoro74/1420-tdd.git
-
-cd 1420-tdd
-
-mvn test
-
-\\`\\`\\`
-
-
-
----
-
-
-
-\## 👨‍💻 Autor
-
-\*\*Fábio Isidoro Mendes\*\*  
-
-Disciplina: \*Técnicas de Programação / Testes Automatizados (ADA)\*  
-
-Instrutor: \*Marcel Tanuri\*  
-
-📅 \*Período: 2025.2\*
-
-
-
----" > README.md
-
-
-
-=======
 ﻿# 🧪 Projeto TDD – Test-Driven Development
 
-Este repositório contém as atividades práticas da disciplina **Testes Automatizados (TDD)**, realizadas durante o curso de **Técnicas de Programação**.
+Este repositório contém as atividades práticas da disciplina **Testes Automatizados (TDD)**, realizadas durante o curso de **Técnicas de Programação** da [ADA Tech](https://ada.tech).
 
-Cada aula apresenta desafios e exemplos práticos aplicando os conceitos de **Red, Green, Refactor**.
->>>>>>> temp
+## 📘 Objetivo
+Aplicar os princípios do **Test-Driven Development** (TDD) — *Red, Green e Refactor* — para criar soluções de software mais confiáveis e sustentáveis.
+
+## 📂 Estrutura do Repositório
+- ula1/ → Fundamentos e primeiros testes automatizados  
+- ula2/ → Sistema de caixa com testes unitários  
+- ula3/ → Melhorias e refatoração  
+- README.md → Descrição geral do projeto
+
+## 🚀 Tecnologias Utilizadas
+- **Java**
+- **JUnit 5**
+- **Maven**
+- **Git/GitHub**
+
+## 💡 Conceitos Envolvidos
+- Desenvolvimento orientado a testes (TDD)
+- Criação de testes unitários
+- Refatoração segura
+- Boas práticas de versionamento
+
+---
+
+✍️ **Autor:** Fabio Isidoro Mendes  
+📅 *Disciplina: Testes Automatizados (TDD) — Técnicas de Programação*  
+🎓 *ADA Tech / Magalu Cloud*
