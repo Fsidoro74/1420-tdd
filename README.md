@@ -24,8 +24,10 @@ Aplicar os princípios do **Test-Driven Development** (TDD) — *Red, Green e Re
 - Boas práticas de versionamento
 
 ---
+## 👨‍💻 Autor e Informações
 
-✍️ **Autor:** Fabio Mendes
-📅 *Período: 2025.11  
-📅 *Disciplina: Testes Automatizados (TDD) — Técnicas de Programação*  
-🎓 *ADA Tech / Magalu Cloud*
+📂 *Projeto desenvolvido para fins educacionais no curso **ADA Tech / Meli***  
+✍️ **Autor:** Fabio Mendes  
+📅 *Período:* 2025.11  
+📘 *Disciplina:* **Testes Automatizados (TDD)** — *Técnicas de Programação*  
+🎓 *Instrutor:* **Marcel Tanuri**
